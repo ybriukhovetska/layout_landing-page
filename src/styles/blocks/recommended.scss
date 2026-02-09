@@ -1,14 +1,11 @@
 .recommended {
   &__products {
     @include pageGrid;
+
     row-gap: 40px;
   }
 
   &__product {
-     &:hover {
-      transition: transform 200ms ease;
-      transform: scale(1.05);
-    }
     grid-column: 1 / -1;
 
     @include onTablet {
@@ -19,6 +16,11 @@
     @include onDesktop {
       grid-column: span 4;
       row-gap: 128px;
+    }
+
+    &:hover {
+     transition: transform 200ms ease;
+     transform: scale(1.05);
     }
   }
 }
