@@ -89,15 +89,14 @@
 
     &:hover {
       transition: transform 200ms ease;
-      transform: scale(1.1);
+      transform: scale(1.05);
     }
   }
-
   &__title {
-    grid-column: span 5;
+    grid-column: span 2;
     margin: 0;
+    font-size: 24px;
     font-weight: 700;
-    font-size: 24px; //on phone 18
     line-height: 140%;
     padding-top: 16px;
   }

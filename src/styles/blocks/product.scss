@@ -2,11 +2,6 @@
   &__image {
     padding: 0;
     width: 100%;
-
-    &:hover {
-      transition: transform 200ms ease;
-      transform: scale(1.1);
-    }
   }
 
   &__title {
